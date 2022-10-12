@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MkdProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MkdProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MkdProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DGLEW_STATIC" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="mingw32" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\glfw3dll.a" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add library="glu32" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\bass.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\jpeg.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libtiff.lib" />
+		</Linker>
+		<Unit filename="Bruit.cpp" />
+		<Unit filename="Bruit.h" />
+		<Unit filename="Context3d.cpp" />
+		<Unit filename="Contexte3d.h" />
+		<Unit filename="Fonctions.cpp" />
+		<Unit filename="Fonctions.h" />
+		<Unit filename="FrameBuffers.h" />
+		<Unit filename="GestionShaders.cpp" />
+		<Unit filename="GestionShaders.h" />
+		<Unit filename="Locomotive.cpp" />
+		<Unit filename="Locomotive.h" />
+		<Unit filename="Lumieres.h" />
+		<Unit filename="Nuages.cpp" />
+		<Unit filename="Nuages.h" />
+		<Unit filename="Objets3d/AffichagesDebogue.cpp" />
+		<Unit filename="Objets3d/AffichagesDebogue.h" />
+		<Unit filename="Objets3d/ChargeLWO2.cpp" />
+		<Unit filename="Objets3d/ChargeLWO2.h" />
+		<Unit filename="Objets3d/ConvertionLWO2.cpp" />
+		<Unit filename="Objets3d/ConvertionLWO2.h" />
+		<Unit filename="Objets3d/Face.cpp" />
+		<Unit filename="Objets3d/Face.h" />
+		<Unit filename="Objets3d/Shaders3d.cpp" />
+		<Unit filename="Objets3d/Shaders3d.h" />
+		<Unit filename="Objets3d/Shaders/flat_fragment.glsl" />
+		<Unit filename="Objets3d/Shaders/flat_vertex.glsl" />
+		<Unit filename="Objets3d/Shaders/gouraud2si_fragment.glsl" />
+		<Unit filename="Objets3d/Shaders/gouraud2si_vertex.glsl" />
+		<Unit filename="Objets3d/Shaders/phong2si_fragment.glsl" />
+		<Unit filename="Objets3d/Shaders/phong2si_vertex.glsl" />
+		<Unit filename="Objets3d/Shaders/texture_fragment.glsl" />
+		<Unit filename="Objets3d/Shaders/texture_gouraud2si_fragment.glsl" />
+		<Unit filename="Objets3d/Shaders/texture_gouraud2si_vertex.glsl" />
+		<Unit filename="Objets3d/Shaders/texture_phong2si_fragment.glsl" />
+		<Unit filename="Objets3d/Shaders/texture_phong2si_vertex.glsl" />
+		<Unit filename="Objets3d/Shaders/texture_vertex.glsl" />
+		<Unit filename="Objets3d/Source_Lumineuse.cpp" />
+		<Unit filename="Objets3d/Source_Lumineuse.h" />
+		<Unit filename="Objets3d/Surface.cpp" />
+		<Unit filename="Objets3d/Surface.h" />
+		<Unit filename="Objets3d/Texture.cpp" />
+		<Unit filename="Objets3d/Texture.h" />
+		<Unit filename="Objets3d/Vecteur.cpp" />
+		<Unit filename="Objets3d/Vecteur.h" />
+		<Unit filename="Objets3d/Volume.cpp" />
+		<Unit filename="Objets3d/Volume.h" />
+		<Unit filename="Primitives/Primitives.cpp" />
+		<Unit filename="Primitives/Primitives.h" />
+		<Unit filename="Primitives/ShadersPrimitives.cpp" />
+		<Unit filename="Primitives/ShadersPrimitives.h" />
+		<Unit filename="Primitives/shaders/prim_phong2si_fragment.glsl" />
+		<Unit filename="Primitives/shaders/prim_phong2si_vertex.glsl" />
+		<Unit filename="Raymarching.cpp" />
+		<Unit filename="Raymarching.h" />
+		<Unit filename="Scene_terrain.cpp" />
+		<Unit filename="Scene_terrain.h" />
+		<Unit filename="Shader.cpp" />
+		<Unit filename="Shader.h" />
+		<Unit filename="ShadersDemo.cpp" />
+		<Unit filename="ShadersDemo.h" />
+		<Unit filename="Sprites_2d.cpp" />
+		<Unit filename="Sprites_2d.h" />
+		<Unit filename="Texgen.cpp" />
+		<Unit filename="Texgen.h" />
+		<Unit filename="TexteMap.cpp" />
+		<Unit filename="TexteMap.h" />
+		<Unit filename="Variables.cpp" />
+		<Unit filename="Variables.h" />
+		<Unit filename="chargeurs_images/Image.cpp" />
+		<Unit filename="chargeurs_images/Image.h" />
+		<Unit filename="chargeurs_images/Image_BMP.cpp" />
+		<Unit filename="chargeurs_images/Image_BMP.h" />
+		<Unit filename="chargeurs_images/Image_JPEG.cpp" />
+		<Unit filename="chargeurs_images/Image_JPEG.h" />
+		<Unit filename="chargeurs_images/Image_TIFF.cpp" />
+		<Unit filename="chargeurs_images/Image_TIFF.h" />
+		<Unit filename="chargeurs_images/Image_infos.cpp" />
+		<Unit filename="chargeurs_images/Image_infos.h" />
+		<Unit filename="frameBuffers.cpp" />
+		<Unit filename="gestion_fichiers.cpp" />
+		<Unit filename="gestion_fichiers.h" />
+		<Unit filename="glew.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glew.h" />
+		<Unit filename="lumieres.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="repere.cpp" />
+		<Unit filename="repere.h" />
+		<Unit filename="scene1.cpp" />
+		<Unit filename="scene1.h" />
+		<Unit filename="scene_etudeMandelbrot.cpp" />
+		<Unit filename="scene_etudeMandelbrot.h" />
+		<Unit filename="shaders/Mandelbrot_fragment_shader.glsl" />
+		<Unit filename="shaders/Mandelbrot_vertex_shader.glsl" />
+		<Unit filename="shaders/Raymarching_fragment_shader.glsl" />
+		<Unit filename="shaders/Raymarching_vertex_shader.glsl" />
+		<Unit filename="shaders/affiche_bitmap_fragment.glsl" />
+		<Unit filename="shaders/affiche_bitmap_vertex.glsl" />
+		<Unit filename="shaders/affiche_texture_fragment.glsl" />
+		<Unit filename="shaders/affiche_texture_vertex.glsl" />
+		<Unit filename="shaders/affiche_texture_zBuffer_fragment.glsl" />
+		<Unit filename="shaders/affiche_texture_zBuffer_vertex.glsl" />
+		<Unit filename="shaders/nuages_fragment.glsl" />
+		<Unit filename="shaders/nuages_vertex.glsl" />
+		<Unit filename="shaders/profondeur_de_champ_fragment.glsl" />
+		<Unit filename="shaders/profondeur_de_champ_vertex.glsl" />
+		<Unit filename="shaders/raymarching_terrain_fragment_shader.glsl" />
+		<Unit filename="shaders/raymarching_terrain_vertex_shader.glsl" />
+		<Unit filename="shaders/relief_fragment.glsl" />
+		<Unit filename="shaders/relief_genCones_fragment.glsl" />
+		<Unit filename="shaders/relief_genCones_vertex.glsl" />
+		<Unit filename="shaders/relief_vertex.glsl" />
+		<Unit filename="shaders/rmGare_fragment_shader.glsl" />
+		<Unit filename="shaders/rmGare_vertex_shader.glsl" />
+		<Unit filename="timeline.cpp" />
+		<Unit filename="vec2f.cpp" />
+		<Unit filename="vec2f.h" />
+		<Unit filename="vec3f.cpp" />
+		<Unit filename="vec3f.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
